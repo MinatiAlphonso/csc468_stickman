@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Main Application Page</title>
+        <link rel="stylesheet" type="text/css" href="helpStyle.css">
+    </head>
+    <body>
+        <header>
+            Stickman
+        </header>
+        <nav class="navItem">
+            <a href="main.php">Main</a> |
+            <a href="file.html">File</a> |
+            <a href="help.html">Help</a>
+        </nav>
+        <a href="#description" class="help">Link to Description</a>
+        <br>
+        <a href="#checklist" class="help">Link to Checklist</a>
+        <br>
+        <a href="#css" class="help">Link to CSS</a>
+        <br>
+        <a href="#usage" class="help">Link to Usage</a>
+        <br>
+        <h2 id="description">Description</h2>
+        <p>
+            Author: Minati Alphonso<br>
+            Class: CSC 468 GUI Spring 2021<br>
+            Description: Stickman<br>
+            This program allows the user to customize their own Stickman character.<br>
+        </p>
+        <h2 id="checklist">Checklist</h2>
+        <p>
+            tier-less) Undo/redo pattern**	36<br>
+            _X_ Undo/redo OOP followed<br>	
+            _X_ Able to do at least 1 undo/redo for 1 piece change <br>
+            _X_ Able to do at least 1 undo/redo for 1 predesigned change<br>	
+            _X_ Able to do at least 5 undo/redo for 1 piece change<br> 	
+            _X_ Able to do at least undo/redo for 1 predesigned change<br>	
+            <br>
+            1) Finish Main page actions	10<br>
+            _X_ Able to change to at least one predesigned stickman<br>	
+            _X_ Able to change to all predesigned stickmen<br>	
+            <br>
+            2) Tier: Files	48<br>
+            _X_ Able to save the current stickman<br> 	
+            _X_ Stay on the main page with a save<br>	
+            _X_ Able to download at least one file (default is ok)<br>	
+            _X_ Able to download an application generated file<br>	
+            _X_ Able to upload a file<br>	
+            _X_ Loading a file redirects back to the main page<br>	
+            _X_ Loaded file properly displays with some file<br> 	
+            _X_ Loaded file properly displays with app generated file<br> 	
+            _X_ All functionality still works after file event <br> 
+            _X_ Able to save, download, upload, and load that same file<br> 	
+            <br> 
+            3) Help page properly updated<br> 	
+            <br> 
+            4) Extensions	30<br> 
+            Extension 1: (10pts) All buttons below the stickman, aligned in columns<br> 	
+            Extension 2: 2.a. (10pts) Hotkeys for all design options: <br>
+            Style: Default (alt+q), Pirate (alt+a), Leprechaun (alt+z) <br> 
+            Head: Default (alt+w), Pirate (alt+s), Leprechaun (alt+x) <br>
+            Left-Arm: Default (alt+e), Pirate (alt+d), Leprechaun (alt+c) <br>
+            Body: Default (alt+c), Pirate (alt+c), Leprechaun (alt+c) <br>
+            Right-Arm: Default (alt+r), Pirate (alt+f), Leprechaun (alt+v) <br>
+            Legs: Default (alt+t), Pirate (alt+g), Leprechaun (alt+b) <br>     
+            Extension 3: 1.a. (5pts) Use a CSS not taught in class: linear-gradient(), <br>
+            I have used this as the background for the file.html page. I referred to<br>
+            w3schools (<a href="https://www.w3schools.com/css/css3_gradients.asp" class="help">https://www.w3schools.com/css/css3_gradients.asp</a>)<br> 
+            Extension 4: 1.b. (5pts) Fancy background: Used two images to make the background for help.html<br> 	
+            <br> 
+            **must have grading tag for points.<br> 
+        </p>
+        <h2 id="css">CSS</h2>
+        <p>
+            1. The background of a page must include a color other than white or a background image.<br>
+            This can be found in the following files: mainStyle.css, fileStyle.css, helpStyle.css.<br> 
+            I used the same background for all three pages.<br> 
+            You can find the style under 'body'.<br><br>
+        </p>
+        <p>
+            2. There must be a custom CSS header included in all pages (note, not heading).<br>
+            This can be found in the following files: mainStyle.css, fileStyle.css, helpStyle.css.<br> 
+            I used the same header for all three pages. <br>
+            You can fund the style under 'header'.<br><br> 
+        </p>    
+        <p>
+            3. The CSS on the navigation bar must include a background color/image rule.<br>
+            This can be found in the following files: mainStyle.css, fileStyle.css, helpStyle.css. <br>
+            I used the same navigation bar for all three pages, it has three options: Main, File, and Help.<br>
+            You can find the style under 'nav', '.navitem', and 'a:link, a:visited'.<br>  
+        </p>    
+        <p>
+            4. There must be a custom link ('a') rule.<br>
+            This can be found in the following files: mainStyle.css, fileStyle.css, helpStyle.css.<br>
+            I used it mainly for the three options - Main, File, and Help.<br>
+            You can find the style under 'a:link, a:visited'. In helpStyle.css only, there is another style <br>
+            found under 'a:link.help, a:visited.help' for the links to the different sections of the 'Help' page.<br><br>
+        </p>    
+        <p>
+            5. There may not be notable gaps between the stickman images.<br>
+            This can be found in mainStyle.css, under 'div'.<br><br>
+        </p>    
+        <p>
+            6. The stickman area must include a border of some sort.<br>
+            This can be found in mainStyle.css under '.canvas'. <br><br>
+        </p>    
+        <p>
+            7. The help page headings must have a font style change<br>
+            This can be found in Help.css under 'h2'.<br><br>
+        </p>
+        
+        <h2 id="usage">Usage</h2>
+        <p>
+            Use this link to access the main page of the project:<br>
+            <a href="https://dev.cse.sdsmt.edu/~s7505169/main.php" class="help">https://dev.cse.sdsmt.edu/~s7505169/main.php</a><br>
+
+            You can also start with file.html and help.html instead of main.php.<br>
+        </p>       
+    </body>
+</html>
