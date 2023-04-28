@@ -4,7 +4,7 @@ CSC 468: GUI Programming<br/>
 Spring 2021<br/>
 ## How to run project locally
 <ul>
-<li>You can follow this article for detailed steps: <a href="https://www.techjunkie.com/run-php-file-xampp/#:~:text=How%20to%20Run%20XAMPP%20on%20My%20Computer%201,the%20address%20bar%20%28omit%20the%20quotations%29.%20See%20More">How to run a PHP file in XAMPP</a> </li>
+<li>You can follow this article for detailed steps: <a href="https://www.techjunkie.com/run-php-file-xampp/#:~:text=How%20to%20Run%20XAMPP%20on%20My%20Computer%201,the%20address%20bar%20%28omit%20the%20quotations%29.%20See%20More" target="_blank">How to run a PHP file in XAMPP</a> </li>
 <li>Folder structure would look like:
   <ul>
   <li>C:\xampp\htdocs\folder_name_of_choice\
