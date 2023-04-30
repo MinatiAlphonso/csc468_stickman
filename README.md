@@ -2,7 +2,8 @@
 This program allows the user to create their own stickman character.<br/>
 CSC 468: GUI Programming<br/>
 Spring 2021<br/>
-Author: Minati Alphonso
+Author: Minati Alphonso<br/>
+Skills: HTML, CSS, JavaScript, PHP, VSCode
 ## How to run project locally
 <ul>
 <li>You can follow this article for detailed steps: <a href="https://www.techjunkie.com/run-php-file-xampp/#:~:text=How%20to%20Run%20XAMPP%20on%20My%20Computer%201,the%20address%20bar%20%28omit%20the%20quotations%29.%20See%20More">How to run a PHP file in XAMPP</a> </li>
